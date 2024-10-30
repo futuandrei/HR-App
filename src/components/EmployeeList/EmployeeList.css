@@ -1,0 +1,13 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
