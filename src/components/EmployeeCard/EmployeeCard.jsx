@@ -20,9 +20,11 @@ function EmployeeCard(props) {
     <div className="card">
       <div className="card-title">{props.name}</div>
       <ul className="card-content">
-        Department: {props.department},
-        Role: {role},
-        Salary: {props.salary}
+        <li>Department: {props.department}</li>
+        <li>Salary: {props.salary}</li>
+        <li>Role: {role}</li>
+        <li>Start Date: {props.startDate}</li>
+        <li>Location: {props.location}</li>
       </ul>
         <button onClick={clickHandler}>Promote</button>
     </div>
