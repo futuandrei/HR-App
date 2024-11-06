@@ -16,7 +16,7 @@
 }
 
 main h1 {
-  color: rgb(220, 239, 246);
+  color: rgb(24, 24, 24);
   font-family: 'Poppins', system-ui, Helvetica, Arial, sans-serif;
   font-size: 2em;
   font-weight: 300;
@@ -39,7 +39,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #213547;
+  background-color: rgb(235, 240, 243);
 }
 
 h1 {
