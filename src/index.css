@@ -7,12 +7,24 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: lightgray;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+main {
+  /* background-color: rgb(255, 207, 189); */
+}
+
+main h1 {
+  color: rgb(220, 239, 246);
+  font-family: 'Poppins', system-ui, Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
 a {
@@ -30,6 +42,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #213547;
 }
 
 h1 {

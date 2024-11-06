@@ -1,5 +1,6 @@
 import EmployeeCard from '../EmployeeCard/EmployeeCard';
 import './EmployeeList.css'
+import './EmployeeList.css'
 
 const EmployeeList = () => {
 

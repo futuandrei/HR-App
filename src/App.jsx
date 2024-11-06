@@ -7,11 +7,11 @@ function App() {
   return (
     <>
     <Header />
-    <div className="app-container">
-      <h1>Welcome to the awesome HR App!</h1>
-      <EmployeeList />  
+      <main>
+        <h1>Welcome to the awesome HR App!</h1>
+        <EmployeeList />  
+      </main>
       <Footer />
-    </div>
     </>
   );
 }
