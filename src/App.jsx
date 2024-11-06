@@ -8,7 +8,7 @@ function App() {
     <>
     <Header />
       <main>
-        <h1>Welcome to the awesome HR App!</h1>
+        <h1>Welcome to the HR App!</h1>
         <EmployeeList />  
       </main>
       <Footer />

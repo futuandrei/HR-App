@@ -1,6 +1,6 @@
 import EmployeeCard from '../EmployeeCard/EmployeeCard';
 import './EmployeeList.css'
-import employees from './employees.json' // import json
+import employees from './employees.js' // import json
 
 const EmployeeList = () => {
   return (
@@ -44,4 +44,4 @@ const EmployeeList = () => {
 //   );
 // }
 
-export default EmployeeList
+export default EmployeeList;
