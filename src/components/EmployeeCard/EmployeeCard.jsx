@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './EmployeeCard.css'
+import '.'
 
 function EmployeeCard(props) {
 
