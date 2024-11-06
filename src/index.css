@@ -14,9 +14,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-main {
-  /* background-color: rgb(255, 207, 189); */
-}
 
 main h1 {
   color: rgb(220, 239, 246);
