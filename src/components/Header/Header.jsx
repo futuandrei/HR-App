@@ -1,9 +1,10 @@
 import './Header.css'
+import 
 
 function Header() {
     return (
         <div className="header">
-            <div className="logo">HR App</div>
+            <div><img src="../"></img></div>
             <ul className="nav">
                 <li>
                     <a href="#">Item</a>

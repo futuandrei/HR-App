@@ -7,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: lightgray;
+  /* background-color: lightgray; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -26,11 +26,11 @@ main h1 {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: darkred;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: pink;
 }
 
 body {
@@ -39,7 +39,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: rgb(235, 240, 243);
+  background-color: lightpink;
 }
 
 h1 {

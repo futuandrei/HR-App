@@ -1,7 +1,7 @@
 const employees = [
     {
         "id": 1,
-        "name": "Harry Potter",
+        "name": "Emma Stone",
         "department": "Management",
         "salary": 7000,
         "initialRole": "CEO",
@@ -10,7 +10,7 @@ const employees = [
     },
     {
         "id": 2,
-        "name": "Steve Muck",
+        "name": "Maryl Streep",
         "department": "Magic",
         "salary": 5000,
         "initialRole": "IT specialist",
@@ -19,7 +19,7 @@ const employees = [
     },
     {
         "id": 3,
-        "name": "Fanny Potter",
+        "name": "Jack Nicholson",
         "department": "IT",
         "salary": 5000,
         "initialRole": "specialist",
@@ -28,7 +28,7 @@ const employees = [
     },
     {
         "id": 4,
-        "name": "Roman Mars",
+        "name": "John Malkovich",
         "department": "IT",
         "salary": 5000,
         "initialRole": "specialist",
@@ -37,7 +37,7 @@ const employees = [
     },
     {
         "id": 5,
-        "name": "Clarion Fairbanks",
+        "name": "Matt Damon",
         "department": "magic",
         "salary": 12000,
         "initialRole": "Sparkle master",

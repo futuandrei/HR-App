@@ -9,6 +9,10 @@
     z-index: 10; /* Ensures it stays above content */
     border-bottom: 1px solid #ddd;
 }
+.logo {
+    color: black;
+    padding-left: 20px;
+}
 
 ul {
     display: flex;

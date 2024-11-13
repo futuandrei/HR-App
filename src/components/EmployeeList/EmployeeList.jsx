@@ -1,6 +1,6 @@
 import EmployeeCard from '../EmployeeCard/EmployeeCard';
 import './EmployeeList.css'
-import employees from './employees.js' // import json
+import employees from '../../Data/employees.js' // import json
 
 const EmployeeList = () => {
   return (
@@ -8,12 +8,8 @@ const EmployeeList = () => {
       {employees.map((employee) => (
         <EmployeeCard
           key={employee.id} // Assuming each employee has a unique "id"
-          name={employee.name}
-          department={employee.department}
-          salary={employee.salary}
-          initialRole={employee.initialRole}
-          startDate={employee.startDate}
-          location={employee.location}
+          name={employee.name}{...employee}
+
         />
       ))}
     </div>
