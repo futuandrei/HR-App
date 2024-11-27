@@ -5,16 +5,16 @@
 }
 
 .card {
-    border: 1px solid #ddd;
+    border: 1px solid lightblue;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     padding: 16px;
-    margin: 16px;
-    background-color: #fff;
+    /* margin: 16px; */
+    background-color: lightcyan;
     /* Adjust width as needed */
     /* width: 250px;  */
     width: calc(25% - 16px); /* 4 cards per row, adjust as needed */
-    text-align: center;
+    text-align: left;
   }
 
   .thumbnail {

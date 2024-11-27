@@ -26,7 +26,7 @@ main h1 {
 
 a {
   font-weight: 500;
-  color: darkred;
+  color: darkslateblue;
   text-decoration: inherit;
 }
 a:hover {
@@ -39,7 +39,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: lightpink;
+  background-color: lightblue;
 }
 
 h1 {

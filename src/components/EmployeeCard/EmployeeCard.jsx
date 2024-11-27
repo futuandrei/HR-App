@@ -1,18 +1,27 @@
 import { useState } from 'react'
 import './EmployeeCard.css'
+import Button from '../Button/Button'
 
 function EmployeeCard(props) {
-
   const [role, setRole] = useState(props.initialRole);
+  const [isPromoted, setIsPromoted] = useState(false);
+  // const [buttonText, setButtonText] = useState("Promote!");
+  // const [toggleFormEdit, setToggleFormEdit] = useState(false);
 
   const clickHandler = () => {
-    if (role === "Team Lead") {
+    if (isPromoted) {
+      // Demote employee
       setRole (props.initialRole); 
+      // setButtonText(props.buttonText);
+      // setButtonText("Demote");
+      setIsPromoted(false);
     } else {
+      // Promote employee
       // setRole (`${props.initialRole} / Team Lead`); 
       setRole (`Team Lead`); 
+      // setButtonText("Promote");
+      setIsPromoted(true)
     }
-
   }
 
   return (
@@ -31,7 +40,11 @@ function EmployeeCard(props) {
         <li>{props.startDate}</li>
         <li>{props.location}</li>
       </ul>
-        <button onClick={clickHandler}>Promote</button>
+        <Button 
+        text={isPromoted ? 'Demote' : 'Promote'}
+        click={clickHandler} // onClick can be anything.  
+        variant={isPromoted ? 'secondary' : 'primary'}      
+        />
     </div>
     </>
   );

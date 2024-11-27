@@ -5,7 +5,7 @@ const employees = [
         "department": "Management",
         "salary": 7000,
         "initialRole": "CEO",
-        "startDate": "2018-08-01",
+        "startDate": "2003-08-01",
         "location": "Helsinki"
     },
     {
@@ -14,7 +14,7 @@ const employees = [
         "department": "Magic",
         "salary": 5000,
         "initialRole": "IT specialist",
-        "startDate": "2018-08-01",
+        "startDate": "2014-08-01",
         "location": "Helsinki"
     },
     {
@@ -38,6 +38,33 @@ const employees = [
     {
         "id": 5,
         "name": "Matt Damon",
+        "department": "magic",
+        "salary": 12000,
+        "initialRole": "Sparkle master",
+        "startDate": "2018-08-01",
+        "location": "Helsinki"
+    },
+    {
+        "id": 6,
+        "name": "Rowan Atkinson",
+        "department": "magic",
+        "salary": 12000,
+        "initialRole": "Sparkle master",
+        "startDate": "2018-08-01",
+        "location": "Helsinki"
+    },
+    {
+        "id": 7,
+        "name": "Richard Gere",
+        "department": "magic",
+        "salary": 12000,
+        "initialRole": "Sparkle master",
+        "startDate": "2018-08-01",
+        "location": "Helsinki"
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Cage",
         "department": "magic",
         "salary": 12000,
         "initialRole": "Sparkle master",

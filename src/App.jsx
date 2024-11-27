@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
-    <Header />
+    <Header/>
       <main>
         <h1>Welcome to the HR App!</h1>
         <EmployeeList />  

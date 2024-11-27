@@ -1,23 +1,36 @@
-.header {
+.header{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(207, 237, 255);
+    padding: 0px 0;
+    box-sizing: border-box;
     position: sticky;
     top: 0;
-    background: white;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    z-index: 10; /* Ensures it stays above content */
-    border-bottom: 1px solid #ddd;
+    flex-direction: row; 
+    justify-content: space-between;   
 }
-.logo {
-    color: black;
-    padding-left: 20px;
+
+.headerMenu{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
 }
 
 ul {
-    display: flex;
+    list-style-type: none;
+    display: flex
 }
 
-li {
-    padding-right: 20px;
+ul li {
+    margin-left: 20px;
+}
+.logo {
+    font-weight:600;
+    height: 40px;
+    align-self: center;
 }
