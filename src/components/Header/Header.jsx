@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 import Button from "../Button/Button";
 
 const Header = (props) => {
-  const buttonText = props.loginStatus ? "Log out" : "Log in";
+  //   const buttonText = props.loginStatus ? "Log out" : "Log in";
 
   return (
     <div className="header">
