@@ -4,11 +4,11 @@ import Footer from "../components/Footer/Footer";
 function HomePage() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <main>
         <h1>Welcome to the Home Page</h1>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
