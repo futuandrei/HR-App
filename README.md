@@ -23,3 +23,14 @@ Live page [to be placed later if applicable]
 ## Screenshot
 
 [to be placed later if needed]
+
+## Json server
+
+Docs:
+https://www.npmjs.com/package/json-server
+Script added:`"server": "json-server --watch db.json --port 3001"`
+
+To run server:
+
+- Open terminal
+- Type:`npm run server`

@@ -1,23 +1,23 @@
-import "./Header.css";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import Button from "../Button/Button";
+import "./Header.css";
 
 const Header = (props) => {
-  //   const buttonText = props.loginStatus ? "Log out" : "Log in";
+  const buttonText = props.loginStatus ? "Log out" : "Log in";
 
   return (
     <div className="header">
       <div className="headerMenu">
-        <img src={logo} alt="Company Logo" className="logo" />
+        <NavLink to="/">
+          <img src={logo} alt="Company Logo" className="logo" />
+        </NavLink>
         <ul className="nav">
           <li>
-            <a href="#">Home</a>
+            <NavLink to="/HomePage">Home</NavLink>
           </li>
           <li>
-            <a href="#">People</a>
-          </li>
-          <li>
-            <a href="#">Calendar</a>
+            <NavLink to="/EmployeePage">Employees</NavLink>
           </li>
         </ul>
         <Button onClick={props.onClick} text={buttonText} variant="primary" />
