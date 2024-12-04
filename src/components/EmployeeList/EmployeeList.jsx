@@ -8,7 +8,7 @@ const EmployeeList = () => {
   const [isLoading, setIsLoading] = useState(true); // Added on Wednesday 27.11
 
   useEffect(() => {
-    fetch("http://localhost:3001/posts")
+    fetch("http://localhost:3001/persons")
       .then((response) => response.json())
       .then((data) => {
         setPosts(data);
