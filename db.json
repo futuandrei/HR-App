@@ -15,7 +15,7 @@
             "department": "Magic",
             "salary": 5000,
             "initialRole": "IT specialist",
-            "startDate": "2014-08-01",
+            "startDate": "2010-08-01",
             "location": "Helsinki"
         },
         {
@@ -51,7 +51,7 @@
             "department": "magic",
             "salary": 12000,
             "initialRole": "Sparkle master",
-            "startDate": "2018-08-01",
+            "startDate": "2022-08-01",
             "location": "Helsinki"
         },
         {
@@ -60,7 +60,7 @@
             "department": "magic",
             "salary": 12000,
             "initialRole": "Sparkle master",
-            "startDate": "2018-08-01",
+            "startDate": "2005-08-01",
             "location": "Helsinki"
         },
         {
@@ -69,7 +69,7 @@
             "department": "magic",
             "salary": 12000,
             "initialRole": "Sparkle master",
-            "startDate": "2018-08-01",
+            "startDate": "2011-08-01",
             "location": "Helsinki"
         }
     ]

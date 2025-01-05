@@ -5,14 +5,14 @@
 - Set up a React project using Vite. [x]
 - Build two components: EmployeeCard and EmployeeList. [x]
 - Pass employee details as props and use them in the cards. [x]
-- Add a button to promote/demote employees and update their role using state.
-- Write a simple README and push your code to GitHub.
+- Add a button to promote/demote employees and update their role using state. [x]
+- Write a simple README and push your code to GitHub. [x]
 
 ## Week 2: Add more features
 
-- Create an array of employees with details like name, role, and start date.
-- Show this employee list in your app.
-- Add a "Log In" button to toggle between seeing the employee list or a login message.
+- Create an array of employees with details like name, role, and start date. [x]
+- Show this employee list in your app. [x]
+- Add a "Log In" button to toggle between seeing the employee list or a login message. [x]
 - Display years worked and show reminders for anniversaries or probation reviews.
 - Update the app to handle special cases like new hires and long-term employees.
 

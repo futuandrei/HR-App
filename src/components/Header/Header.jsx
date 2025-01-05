@@ -1,10 +1,17 @@
 import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import Button from "../Button/Button";
 import "./Header.css";
 
 const Header = (props) => {
-  const buttonText = props.loginStatus ? "Log out" : "Log in";
+  //   const buttonText = props.loginStatus ? "Log out" : "Log in";
+
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    navigate("/");
+  };
 
   return (
     <div className="header">
@@ -14,16 +21,17 @@ const Header = (props) => {
         </NavLink>
         <ul className="nav">
           <li>
-            <NavLink to="/HomePage">Home</NavLink>
+            <NavLink to="HomePage">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/EmployeePage">Employees</NavLink>
+            <NavLink to="EmployeePage">Employees</NavLink>
           </li>
         </ul>
-        <Button onClick={props.onClick} text={buttonText} variant="primary" />
+        <Button text={"Logout"} variant="primary" click={handleLogout} />
       </div>
     </div>
   );
+  2;
 };
 
 export default Header;
