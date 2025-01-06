@@ -16,7 +16,7 @@ const EmployeeList = () => {
       });
   }, []);
 
-  console.log(posts);
+  // console.log(posts);
   return (
     <div className="cards-list">
       {isLoading ? (

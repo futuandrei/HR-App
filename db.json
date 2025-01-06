@@ -6,7 +6,7 @@
             "department": "Management",
             "salary": 7000,
             "initialRole": "CEO",
-            "startDate": "2003-08-01",
+            "startDate": "2003-01-06",
             "location": "Helsinki"
         },
         {
@@ -15,7 +15,7 @@
             "department": "Magic",
             "salary": 5000,
             "initialRole": "IT specialist",
-            "startDate": "2010-08-01",
+            "startDate": "2010-02-06",
             "location": "Helsinki"
         },
         {
@@ -23,8 +23,8 @@
             "name": "Jack Nicholson",
             "department": "IT",
             "salary": 5000,
-            "initialRole": "specialist",
-            "startDate": "2018-08-01",
+            "initialRole": "IT Specialist",
+            "startDate": "2018-01-07",
             "location": "Helsinki"
         },
         {
@@ -32,8 +32,8 @@
             "name": "John Malkovich",
             "department": "IT",
             "salary": 5000,
-            "initialRole": "specialist",
-            "startDate": "2018-08-01",
+            "initialRole": "IT Specialist",
+            "startDate": "2025-12-01",
             "location": "Helsinki"
         },
         {
@@ -41,8 +41,8 @@
             "name": "Matt Damon",
             "department": "magic",
             "salary": 12000,
-            "initialRole": "Sparkle master",
-            "startDate": "2018-08-01",
+            "initialRole": "IT Specialist",
+            "startDate": "2024-11-01",
             "location": "Helsinki"
         },
         {
@@ -51,7 +51,7 @@
             "department": "magic",
             "salary": 12000,
             "initialRole": "Sparkle master",
-            "startDate": "2022-08-01",
+            "startDate": "2024-12-01",
             "location": "Helsinki"
         },
         {
@@ -69,6 +69,42 @@
             "department": "magic",
             "salary": 12000,
             "initialRole": "Sparkle master",
+            "startDate": "2011-08-01",
+            "location": "Helsinki"
+        },
+        {
+            "id": 9,
+            "name": "Mikael Persbrandt",
+            "department": "HR",
+            "salary": 12000,
+            "initialRole": "HR specialist",
+            "startDate": "2011-08-01",
+            "location": "Helsinki"
+        },
+        {
+            "id": 10,
+            "name": "Peter Haber",
+            "department": "HR",
+            "salary": 12000,
+            "initialRole": "HR specialist",
+            "startDate": "2011-08-01",
+            "location": "Helsinki"
+        },
+        {
+            "id": 11,
+            "name": "Jacob Eklund",
+            "department": "HR",
+            "salary": 12000,
+            "initialRole": "HR specialist",
+            "startDate": "2011-08-01",
+            "location": "Helsinki"
+        },
+        {
+            "id": 12,
+            "name": "Joel Kinnaman",
+            "department": "HR",
+            "salary": 12000,
+            "initialRole": "HR specialist",
             "startDate": "2011-08-01",
             "location": "Helsinki"
         }

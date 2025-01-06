@@ -31,7 +31,6 @@ const Header = (props) => {
       </div>
     </div>
   );
-  2;
 };
 
 export default Header;
