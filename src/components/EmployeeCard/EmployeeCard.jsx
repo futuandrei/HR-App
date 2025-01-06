@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./EmployeeCard.css";
 import Button from "../Button/Button";
+import Form from "../Forms/Forms";
 
 function EmployeeCard(props) {
   const [role, setRole] = useState(props.initialRole);
@@ -8,6 +9,21 @@ function EmployeeCard(props) {
   const [isPromoted, setIsPromoted] = useState(false);
   // const [buttonText, setButtonText] = useState("Promote!");
   // const [toggleFormEdit, setToggleFormEdit] = useState(false);
+  const [isEditing, setIsEditing] = useState(false); // To toggle the form
+
+  const handleEditClick = () => {
+    setIsEditing(true);
+  };
+
+  const handleSave = (updatedData) => {
+    console.log("Updated Data:", updatedData);
+    setIsEditing(false); // Close form after saving
+    // Here, you would typically make a PUT request to the backend with updated data
+  };
+
+  const handleCancel = () => {
+    setIsEditing(false); // Close form on cancel
+  };
 
   const clickHandler = () => {
     if (isPromoted) {
@@ -84,11 +100,14 @@ function EmployeeCard(props) {
       return "Probation review this month!";
     } else if (totalMonthsDifference === probationPeriodMonths - 1) {
       return "Probation review next month!";
-    } else if (totalMonthsDifference === probationPeriodMonths - 2) {
-      return "Probation review in 2 months!";
     } else {
       return "";
     }
+  };
+
+  // Delete employee
+  const handleDelete = () => {
+    props.onDelete(props.id); // Call the delete function passed from the parent with the employee ID.
   };
 
   return (
@@ -124,10 +143,27 @@ function EmployeeCard(props) {
             )}
           </li>
         </ul>
+        {!isEditing ? (
+          <Button text="Edit" click={handleEditClick} variant="primary" />
+        ) : (
+          <Form
+            role={props.initialRole}
+            department={props.department}
+            location={props.location}
+            onSave={handleSave}
+            onCancel={handleCancel}
+          />
+        )}
+
         <Button
           text={isPromoted ? "Demote" : "Promote"}
           click={clickHandler} // onClick can be anything.
           variant={isPromoted ? "secondary" : "primary"}
+        />
+        <Button
+          text={"Delete"}
+          click={handleDelete} // Call the delete handler when clicked
+          variant="secondary"
         />
       </div>
     </>

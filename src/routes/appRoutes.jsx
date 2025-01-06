@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage";
 import EmployeePage from "../pages/EmployeePage";
 import NotFound from "../pages/NotFound";
 import LoginPage from "../pages/LoginPage";
+import AddEmployeePage from "../pages/AddEmployeePage";
 
 // export const router = createBrowserRouter([
 //   {
@@ -29,7 +30,8 @@ export const router = createBrowserRouter([
     element: <Root />, // Use Root for layout pages
     children: [
       { path: "HomePage", element: <HomePage /> }, // Accessible via /app/HomePage
-      { path: "EmployeePage", element: <EmployeePage /> }, // Accessible via /app/EmployeePage
+      { path: "EmployeePage", element: <EmployeePage /> },
+      { path: "AddEmployee", element: <AddEmployeePage /> }, // Accessible via /app/EmployeePage
     ],
   },
 ]);

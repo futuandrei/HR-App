@@ -14,7 +14,7 @@
 - Show this employee list in your app. [x]
 - Add a "Log In" button to toggle between seeing the employee list or a login message. [x]
 - Display years worked and show reminders for anniversaries or probation reviews. [x]
-- Update the app to handle special cases like new hires and long-term employees.
+- Update the app to handle special cases like new hires and long-term employees. [x]
 
 ## Week 3: Clean up and add interactivity
 

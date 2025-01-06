@@ -1,112 +1,148 @@
 {
-    "persons": [
-        {
-            "id": 1,
-            "name": "Emma Stone",
-            "department": "Management",
-            "salary": 7000,
-            "initialRole": "CEO",
-            "startDate": "2003-01-06",
-            "location": "Helsinki"
-        },
-        {
-            "id": 2,
-            "name": "Maryl Streep",
-            "department": "Magic",
-            "salary": 5000,
-            "initialRole": "IT specialist",
-            "startDate": "2010-02-06",
-            "location": "Helsinki"
-        },
-        {
-            "id": 3,
-            "name": "Jack Nicholson",
-            "department": "IT",
-            "salary": 5000,
-            "initialRole": "IT Specialist",
-            "startDate": "2018-01-07",
-            "location": "Helsinki"
-        },
-        {
-            "id": 4,
-            "name": "John Malkovich",
-            "department": "IT",
-            "salary": 5000,
-            "initialRole": "IT Specialist",
-            "startDate": "2025-12-01",
-            "location": "Helsinki"
-        },
-        {
-            "id": 5,
-            "name": "Matt Damon",
-            "department": "magic",
-            "salary": 12000,
-            "initialRole": "IT Specialist",
-            "startDate": "2024-11-01",
-            "location": "Helsinki"
-        },
-        {
-            "id": 6,
-            "name": "Rowan Atkinson",
-            "department": "magic",
-            "salary": 12000,
-            "initialRole": "Sparkle master",
-            "startDate": "2024-12-01",
-            "location": "Helsinki"
-        },
-        {
-            "id": 7,
-            "name": "Richard Gere",
-            "department": "magic",
-            "salary": 12000,
-            "initialRole": "Sparkle master",
-            "startDate": "2005-08-01",
-            "location": "Helsinki"
-        },
-        {
-            "id": 8,
-            "name": "Nicholas Cage",
-            "department": "magic",
-            "salary": 12000,
-            "initialRole": "Sparkle master",
-            "startDate": "2011-08-01",
-            "location": "Helsinki"
-        },
-        {
-            "id": 9,
-            "name": "Mikael Persbrandt",
-            "department": "HR",
-            "salary": 12000,
-            "initialRole": "HR specialist",
-            "startDate": "2011-08-01",
-            "location": "Helsinki"
-        },
-        {
-            "id": 10,
-            "name": "Peter Haber",
-            "department": "HR",
-            "salary": 12000,
-            "initialRole": "HR specialist",
-            "startDate": "2011-08-01",
-            "location": "Helsinki"
-        },
-        {
-            "id": 11,
-            "name": "Jacob Eklund",
-            "department": "HR",
-            "salary": 12000,
-            "initialRole": "HR specialist",
-            "startDate": "2011-08-01",
-            "location": "Helsinki"
-        },
-        {
-            "id": 12,
-            "name": "Joel Kinnaman",
-            "department": "HR",
-            "salary": 12000,
-            "initialRole": "HR specialist",
-            "startDate": "2011-08-01",
-            "location": "Helsinki"
-        }
-    ]
+  "persons": [
+    {
+      "id": "1",
+      "name": "Emma Stone",
+      "department": "Management",
+      "salary": 7000,
+      "initialRole": "CEO",
+      "startDate": "2003-01-06",
+      "location": "Helsinki"
+    },
+    {
+      "id": "2",
+      "name": "Maryl Streep",
+      "department": "Magic",
+      "salary": 5000,
+      "initialRole": "IT specialist",
+      "startDate": "2010-02-06",
+      "location": "Helsinki"
+    },
+    {
+      "id": "3",
+      "name": "Jack Nicholson",
+      "department": "IT",
+      "salary": 5000,
+      "initialRole": "IT Specialist",
+      "startDate": "2018-01-07",
+      "location": "Helsinki"
+    },
+    {
+      "id": "4",
+      "name": "John Malkovich",
+      "department": "IT",
+      "salary": 5000,
+      "initialRole": "IT Specialist",
+      "startDate": "2025-12-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "5",
+      "name": "Matt Damon",
+      "department": "magic",
+      "salary": 12000,
+      "initialRole": "IT Specialist",
+      "startDate": "2024-11-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "6",
+      "name": "Rowan Atkinson",
+      "department": "magic",
+      "salary": 12000,
+      "initialRole": "Sparkle master",
+      "startDate": "2024-12-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "7",
+      "name": "Richard Gere",
+      "department": "magic",
+      "salary": 12000,
+      "initialRole": "Sparkle master",
+      "startDate": "2005-08-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "8",
+      "name": "Nicholas Cage",
+      "department": "magic",
+      "salary": 12000,
+      "initialRole": "Sparkle master",
+      "startDate": "2011-08-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "9",
+      "name": "Mikael Persbrandt",
+      "department": "HR",
+      "salary": 12000,
+      "initialRole": "HR specialist",
+      "startDate": "2011-08-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "10",
+      "name": "Peter Haber",
+      "department": "HR",
+      "salary": 12000,
+      "initialRole": "HR specialist",
+      "startDate": "2011-08-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "11",
+      "name": "Jacob Eklund",
+      "department": "HR",
+      "salary": 12000,
+      "initialRole": "HR specialist",
+      "startDate": "2011-08-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "12",
+      "name": "Joel Kinnaman",
+      "department": "HR",
+      "salary": 12000,
+      "initialRole": "HR specialist",
+      "startDate": "2011-08-01",
+      "location": "Helsinki"
+    },
+    {
+      "id": "5ce9",
+      "name": "Samuel",
+      "department": "Jakson",
+      "salary": "5000",
+      "initialRole": "Developer",
+      "location": "Oslo",
+      "startDate": "2025-01-07"
+    },
+    {
+      "id": "7fb2",
+      "name": "Richard Harris",
+      "department": "HR",
+      "salary": "5500",
+      "initialRole": "Analyst",
+      "location": "Stockholm",
+      "startDate": "2025-01-23"
+    },
+    {
+      "id": "3baa",
+      "name": "asda",
+      "department": "asda",
+      "salary": "333",
+      "initialRole": "asdsad",
+      "location": "Helsinki",
+      "startDate": "2025-01-03"
+    },
+    {
+      "id": "d0dc",
+      "name": "Andrei Savolainen",
+      "department": "HR",
+      "salary": "4000",
+      "initialRole": "Assistant",
+      "location": "Bergen",
+      "startDate": "2025-01-17"
+    }
+  ]
 }

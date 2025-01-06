@@ -3,14 +3,25 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import EmployeeList from "../components/EmployeeList/EmployeeList";
 import Button from "../components/Button/Button";
+import { useNavigate } from "react-router-dom";
 
-function HomePage() {
+function EmployeePage() {
+  const navigate = useNavigate();
+
+  const handleAddEmployee = () => {
+    navigate("/app/AddEmployee"); // Navigate to the Add Employee form
+  };
+
   return (
     <>
       {/* <Header /> */}
       <main>
         <div className="buttonRow">
-          <Button text={"Add Employee"} variant="primary" />
+          <Button
+            text={"Add Employee"}
+            variant="primary"
+            click={handleAddEmployee}
+          />
         </div>
         <EmployeeList />
       </main>
@@ -19,4 +30,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default EmployeePage;
