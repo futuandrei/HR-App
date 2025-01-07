@@ -18,9 +18,9 @@
 
 ## Week 3: Clean up and add interactivity
 
-- Use props destructuring to make your code cleaner.
-- Create a Button component and use it everywhere you need buttons.
-- Add an "Edit" button to allow changes to roles, departments, and locations.
+- Use props destructuring to make your code cleaner. [x]
+- Create a Button component and use it everywhere you need buttons. [x]
+- Add an "Edit" button to allow changes to roles, departments, and locations. [x]
 - Update styling dynamically based on the department.
 - Clean up your code and test all features before pushing to GitHub.
 

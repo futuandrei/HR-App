@@ -110,9 +110,16 @@ function EmployeeCard(props) {
     props.onDelete(props.id); // Call the delete function passed from the parent with the employee ID.
   };
 
+  // Dynamically generate class name based on department
+  const departmentClass = `card card-${
+    props.department?.trim().toLowerCase().replace(/\s+/g, "-") || "default"
+  }`;
+
+  console.log(`Department: "${props.department}"`); // Log the exact department value
+
   return (
     <>
-      <div className="card">
+      <div className={departmentClass}>
         <h3 className="card-title">{props.name}</h3>
         <img
           src={`https://robohash.org/${props.id}.png?set=set5&size=200x200`}
@@ -144,27 +151,30 @@ function EmployeeCard(props) {
           </li>
         </ul>
         {!isEditing ? (
-          <Button text="Edit" click={handleEditClick} variant="primary" />
+          <div className="cardButtonRow">
+            <Button text="Edit" click={handleEditClick} variant="primary" />
+            <Button
+              text={isPromoted ? "Demote" : "Promote"}
+              click={clickHandler} // onClick can be anything.
+              variant={isPromoted ? "secondary" : "primary"}
+            />
+            <Button
+              text={"Delete"}
+              click={handleDelete} // Call the delete handler when clicked
+              variant="secondary"
+            />
+          </div>
         ) : (
-          <Form
-            role={props.initialRole}
-            department={props.department}
-            location={props.location}
-            onSave={handleSave}
-            onCancel={handleCancel}
-          />
+          <div className="editFormContainer">
+            <Form
+              role={props.initialRole}
+              department={props.department}
+              location={props.location}
+              onSave={handleSave}
+              onCancel={handleCancel}
+            />
+          </div>
         )}
-
-        <Button
-          text={isPromoted ? "Demote" : "Promote"}
-          click={clickHandler} // onClick can be anything.
-          variant={isPromoted ? "secondary" : "primary"}
-        />
-        <Button
-          text={"Delete"}
-          click={handleDelete} // Call the delete handler when clicked
-          variant="secondary"
-        />
       </div>
     </>
   );

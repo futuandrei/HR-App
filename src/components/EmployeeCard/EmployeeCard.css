@@ -5,16 +5,32 @@
 }
 
 .card {
-  border: 1px solid;
+  border: 1px solid #333;
   border-radius: 8px;
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  padding: 16px;
-  /* margin: 16px; */
-  background-color: white;
-  /* Adjust width as needed */
-  /* width: 250px;  */
-  width: calc(25% - 16px); /* 4 cards per row, adjust as needed */
+  /* padding: 16px; */
+  background-color: #fff;
+  width: calc(25% - 16px); /* 4 cards per row */
   text-align: left;
+}
+
+.card-it {
+  border-color: #007bff;
+  background-color: #e6f2ff; /* Light blue for IT department */
+}
+
+.card-hr {
+  border-color: #ff5722;
+  background-color: #ffe6e1; /* Light orange for HR department */
+}
+
+.card-management {
+  border-color: #4caf50;
+  background-color: #e7f5e7; /* Light green for Management department */
+}
+
+.card-marketing {
+  border-color: #9c27b0;
+  background-color: #f5e7f8; /* Light purple for Marketing department */
 }
 
 .thumbnail {
@@ -22,6 +38,7 @@
   width: 80px;
   height: 80px;
   border-radius: 100%;
+  margin-left: 16px;
 }
 
 .card-title {
@@ -30,6 +47,7 @@
   color: #333;
   margin-top: 12px;
   margin-bottom: 8px;
+  padding-left: 16px;
 }
 
 .card-content {
@@ -46,7 +64,12 @@
 }
 
 ul li {
-  margin-left: 0px;
+  margin-left: 16px;
+}
+
+.cardButtonRow {
+  padding-left: 16px;
+  padding-bottom: 16px;
 }
 
 button {

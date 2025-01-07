@@ -19,7 +19,7 @@
 }
 
 /* Smaller button style for card buttons */
-.card .button {
+.cards-list .button {
   padding: 5px 10px; /* Smaller padding */
   font-size: 12px; /* Smaller font size */
 }

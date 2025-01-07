@@ -40,6 +40,7 @@ const EmployeeList = () => {
           <EmployeeCard
             key={employee.id} // Assuming each employee has a unique "id"
             name={employee.name}
+            department={employee.department}
             {...employee}
             onDelete={deleteEmployee} // Pass delete function as a prop
           />

@@ -19,7 +19,7 @@ const Form = ({ role, department, location, onSave, onCancel }) => {
   };
 
   return (
-    <div className="employeeEditForm">
+    <div>
       <form onSubmit={handleSubmit}>
         <label>Role:</label>
         <input name="role" value={formData.role} onChange={handleChange} />
@@ -35,12 +35,14 @@ const Form = ({ role, department, location, onSave, onCancel }) => {
           value={formData.location}
           onChange={handleChange}
         />
-        <button type="submit" className="button">
-          Save
-        </button>
-        <button type="button" className="button" onClick={onCancel}>
-          Cancel
-        </button>
+        <div className="formButtonRow">
+          <button type="submit" className="button">
+            Save
+          </button>
+          <button type="button" className="button" onClick={onCancel}>
+            Cancel
+          </button>
+        </div>
       </form>
     </div>
   );
