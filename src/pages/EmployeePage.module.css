@@ -1,0 +1,58 @@
+.employee-page {
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: white;
+}
+
+.employee-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.employee-thumbnail {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: #dadada;
+  margin-bottom: 20px;
+}
+
+.employee-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.employee-department {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.employee-page-it {
+  border-color: #007bff;
+  background-color: #e6f2ff; /* Light blue for IT */
+}
+
+.employee-page-hr {
+  border-color: #ff5722;
+  background-color: #ffe6e1; /* Light orange for HR */
+}
+
+.employee-page-management {
+  border-color: #4caf50;
+  background-color: #e7f5e7; /* Light green for Management */
+}
+
+.employee-page-marketing {
+  border-color: #9c27b0;
+  background-color: #f5e7f8; /* Light purple for Marketing */
+}
+
+.employee-page-default {
+  background-color: #f0f0f0; /* Neutral grey for undefined departments */
+}

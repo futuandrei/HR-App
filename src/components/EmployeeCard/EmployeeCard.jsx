@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./EmployeeCard.css";
 import Button from "../Button/Button";
 import Form from "../Forms/Forms";
+import { useNavigate } from "react-router-dom";
+import EmployeePage from "../../pages/EmployeePage";
 
 function EmployeeCard(props) {
   const [role, setRole] = useState(props.initialRole);
@@ -10,15 +12,37 @@ function EmployeeCard(props) {
   // const [buttonText, setButtonText] = useState("Promote!");
   // const [toggleFormEdit, setToggleFormEdit] = useState(false);
   const [isEditing, setIsEditing] = useState(false); // To toggle the form
+  const navigate = useNavigate();
 
   const handleEditClick = () => {
     setIsEditing(true);
   };
 
+  const handleViewEmployee = () => {
+    const employeeData = {
+      id: props.id,
+      name: props.name,
+      department: props.department,
+      salary: props.salary,
+      initialRole: props.initialRole,
+      location: props.location,
+      startDate: props.startDate,
+      thumbnailUrl: `https://robohash.org/${props.id}.png?set=set5&size=200x200`,
+    };
+
+    navigate(`/app/EmployeePage/${props.id}`, { state: employeeData }); // Navigate to EmployeePage with the ID in the URL
+  };
+
+  // const handleSave = (updatedData) => {
+  //   console.log("Updated Data:", updatedData);
+  //   setIsEditing(false); // Close form after saving
+  //   // Here, you would typically make a PUT request to the backend with updated data
+  // };
   const handleSave = (updatedData) => {
-    console.log("Updated Data:", updatedData);
-    setIsEditing(false); // Close form after saving
-    // Here, you would typically make a PUT request to the backend with updated data
+    console.log("Saving data:", updatedData); // Debug log
+    setRole(updatedData.role); // Explicitly update the role state
+    props.onSave(props.id, updatedData); // Call the parent's update function
+    setIsEditing(false); // Close the form after saving
   };
 
   const handleCancel = () => {
@@ -115,7 +139,7 @@ function EmployeeCard(props) {
     props.department?.trim().toLowerCase().replace(/\s+/g, "-") || "default"
   }`;
 
-  console.log(`Department: "${props.department}"`); // Log the exact department value
+  // console.log(`Department: "${props.department}"`); // Log the exact department value
 
   return (
     <>
@@ -152,6 +176,7 @@ function EmployeeCard(props) {
         </ul>
         {!isEditing ? (
           <div className="cardButtonRow">
+            <Button text="View" click={handleViewEmployee} variant="primary" />
             <Button text="Edit" click={handleEditClick} variant="primary" />
             <Button
               text={isPromoted ? "Demote" : "Promote"}

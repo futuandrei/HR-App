@@ -24,7 +24,7 @@ const NewHireForm = ({ onAddEmployee }) => {
 
   // Handle cancel button click
   const handleCancel = () => {
-    navigate("/app/EmployeePage"); // Redirect to EmployeePage when cancel is clicked
+    navigate("/app/EmployeesPage"); // Redirect to EmployeePage when cancel is clicked
   };
 
   return (

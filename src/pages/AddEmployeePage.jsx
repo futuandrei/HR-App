@@ -22,7 +22,7 @@ const AddEmployeePage = () => {
     });
 
     // Navigate back to employees page after successful save
-    navigate("/app/EmployeePage");
+    navigate("/app/EmployeesPage");
   };
 
   return (

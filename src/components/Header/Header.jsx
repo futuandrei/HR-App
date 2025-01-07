@@ -24,7 +24,7 @@ const Header = (props) => {
             <NavLink to="HomePage">Home</NavLink>
           </li>
           <li>
-            <NavLink to="EmployeePage">Employees</NavLink>
+            <NavLink to="EmployeesPage">Employees</NavLink>
           </li>
         </ul>
         <Button text={"Logout"} variant="primary" click={handleLogout} />

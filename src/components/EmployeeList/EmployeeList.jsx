@@ -17,6 +17,15 @@ const EmployeeList = () => {
       });
   }, []);
 
+  // Function to update an employee's information
+  const updateEmployee = (id, updatedData) => {
+    setEmployees((prevEmployees) =>
+      prevEmployees.map((emp) =>
+        emp.id === id ? { ...emp, ...updatedData } : emp
+      )
+    );
+  };
+
   // Function to delete employee
   const deleteEmployee = async (id) => {
     // Send DELETE request to the server
@@ -43,6 +52,7 @@ const EmployeeList = () => {
             department={employee.department}
             {...employee}
             onDelete={deleteEmployee} // Pass delete function as a prop
+            onSave={updateEmployee} // Pass the update function to EmployeeCard
           />
         ))
       )}

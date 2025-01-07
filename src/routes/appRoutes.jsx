@@ -1,10 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../pages/Root";
 import HomePage from "../pages/HomePage";
-import EmployeePage from "../pages/EmployeePage";
+import EmployeesPage from "../pages/EmployeesPage";
 import NotFound from "../pages/NotFound";
 import LoginPage from "../pages/LoginPage";
 import AddEmployeePage from "../pages/AddEmployeePage";
+import EmployeePage from "../pages/EmployeePage";
 
 // export const router = createBrowserRouter([
 //   {
@@ -30,7 +31,8 @@ export const router = createBrowserRouter([
     element: <Root />, // Use Root for layout pages
     children: [
       { path: "HomePage", element: <HomePage /> }, // Accessible via /app/HomePage
-      { path: "EmployeePage", element: <EmployeePage /> },
+      { path: "EmployeesPage", element: <EmployeesPage /> },
+      { path: "EmployeePage/:id", element: <EmployeePage /> },
       { path: "AddEmployee", element: <AddEmployeePage /> }, // Accessible via /app/EmployeePage
     ],
   },

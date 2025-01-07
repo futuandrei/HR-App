@@ -21,26 +21,26 @@
 - Use props destructuring to make your code cleaner. [x]
 - Create a Button component and use it everywhere you need buttons. [x]
 - Add an "Edit" button to allow changes to roles, departments, and locations. [x]
-- Update styling dynamically based on the department.
-- Clean up your code and test all features before pushing to GitHub.
+- Update styling dynamically based on the department. [x]
+- Clean up your code and test all features before pushing to GitHub. [x]
 
 ## Week 4: Add routing
 
-- Install React Router and create pages for the app: Login, List, and Form.
-- Set up routes so users can navigate between these pages.
-- Build a form to add new employees and manage its input with state.
-- Add a login page with basic username/password functionality.
+- Install React Router and create pages for the app: Login, List, and Form. [x]
+- Set up routes so users can navigate between these pages. [x]
+- Build a form to add new employees and manage its input with state. [x]
+- Add a login page with basic username/password functionality. [x]
 
 ## Week 5: Connect to a backend
 
-- Use json-server to create a mock backend and store employee data in db.json.
-- Fetch the employee list from the backend instead of using a static array.
-- Add functionality to create, edit, and fetch employee data dynamically.
-- Add a detailed view page for each employee.
+- Use json-server to create a mock backend and store employee data in db.json. [x]
+- Fetch the employee list from the backend instead of using a static array. [x]
+- Add functionality to create, edit, and fetch employee data dynamically. [x]
+- Add a detailed view page for each employee. [x]
 
 ## Week 5: Polish your app
 
-- Use custom hooks to simplify and reuse logic.
+- Use custom hooks to simplify and reuse logic. [x]
 - Implement CSS Modules for better styling and scope management.
 - Replace inline styles with CSS variables for consistent theming.
 - Refactor the file structure to keep everything organized.

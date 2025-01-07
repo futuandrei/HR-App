@@ -143,6 +143,15 @@
       "initialRole": "Assistant",
       "location": "Bergen",
       "startDate": "2025-01-17"
+    },
+    {
+      "id": "0f5e",
+      "name": "Jack Black",
+      "department": "Maintenance",
+      "salary": "3000",
+      "initialRole": "Janitor",
+      "location": "Mobile",
+      "startDate": "2025-01-07"
     }
   ]
 }

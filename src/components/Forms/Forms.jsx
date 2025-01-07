@@ -15,6 +15,7 @@ const Form = ({ role, department, location, onSave, onCancel }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log(formData);
     onSave(formData); // Pass updated data to parent
   };
 
