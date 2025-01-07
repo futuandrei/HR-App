@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "../components/Button/Button";
 import Footer from "../components/Footer/Footer";
-import "./LoginPage.css";
+import styles from "./LoginPage.module.css";
 
 function LoginPage() {
   const [username, setUsername] = useState("");
@@ -29,12 +29,12 @@ function LoginPage() {
   };
 
   return (
-    <div className="login-container">
+    <div className={`${styles["login-container"]}`}>
       {/* <Header /> */}
       <main>
         <h1>Welcome to HR App</h1>
         <form onSubmit={handleLogin}>
-          <div className="form-group">
+          <div className={styles["form-group"]}>
             <label htmlFor="username">Username:</label>
             <input
               type="text"
@@ -44,7 +44,7 @@ function LoginPage() {
               required
             />
           </div>
-          <div className="form-group">
+          <div className={styles["form-group"]}>
             <label htmlFor="password">Password:</label>
             <input
               type="password"

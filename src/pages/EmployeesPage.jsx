@@ -19,7 +19,7 @@ function EmployeesPage() {
         <div className="buttonRow">
           <Button
             text={"Add Employee"}
-            variant="primary"
+            variant="secondary"
             click={handleAddEmployee}
           />
         </div>

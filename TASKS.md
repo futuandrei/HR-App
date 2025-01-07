@@ -41,15 +41,7 @@
 ## Week 5: Polish your app
 
 - Use custom hooks to simplify and reuse logic. [x]
-- Implement CSS Modules for better styling and scope management.
-- Replace inline styles with CSS variables for consistent theming.
-- Refactor the file structure to keep everything organized.
-- Test the app and ensure all features work smoothly.
-
-# Steps and other notes
-
-## Week 7:
-
-- Add functionality to add new employee
-- See details
-  All steps are visible in Margit's Week5 code.
+- Implement CSS Modules for better styling and scope management. [x]
+- Replace inline styles with CSS variables for consistent theming. [x]
+- Refactor the file structure to keep everything organized. [x]
+- Test the app and ensure all features work smoothly. [x]

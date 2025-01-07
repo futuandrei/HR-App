@@ -19,15 +19,17 @@ const Header = (props) => {
         <NavLink to="/">
           <img src={logo} alt="Company Logo" className="logo" />
         </NavLink>
-        <ul className="nav">
-          <li>
-            <NavLink to="HomePage">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="EmployeesPage">Employees</NavLink>
-          </li>
-        </ul>
-        <Button text={"Logout"} variant="primary" click={handleLogout} />
+        <div className="nav-links">
+          <ul className="nav">
+            <li>
+              <NavLink to="HomePage">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="EmployeesPage">Employees</NavLink>
+            </li>
+          </ul>
+          <Button text={"Logout"} variant="secondary" click={handleLogout} />
+        </div>
       </div>
     </div>
   );
