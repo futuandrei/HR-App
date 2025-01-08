@@ -1,5 +1,5 @@
 {
-  "persons": [
+  "employees": [
     {
       "id": "1",
       "name": "Emma Stone",
@@ -155,21 +155,12 @@
     },
     {
       "id": "18",
-      "name": "Emma Stone",
+      "name": "Selena Gomez",
       "department": "HR",
       "salary": 5000,
       "initialRole": "HR Specialist",
       "location": "Berlin",
       "startDate": "2025-01-22"
-    },
-    {
-      "id": "c212",
-      "name": "Jonas",
-      "department": "HR",
-      "salary": "4000",
-      "initialRole": "HR",
-      "location": "Kopenhagen",
-      "startDate": "2025-01-17"
     }
   ]
 }
