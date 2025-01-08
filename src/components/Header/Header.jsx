@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="headerMenu">
-        <NavLink to="/">
+        <NavLink to="HomePage">
           <img src={logo} alt="Company Logo" className="logo" />
         </NavLink>
         <div className="nav-links">
