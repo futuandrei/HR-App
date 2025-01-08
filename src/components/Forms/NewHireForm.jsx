@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import navigate for redirection
+import PropTypes from "prop-types"; // Import PropTypes
 import "./NewHireForm.css";
 
 const NewHireForm = ({ onAddEmployee }) => {
@@ -84,6 +85,10 @@ const NewHireForm = ({ onAddEmployee }) => {
       </div>
     </form>
   );
+};
+
+NewHireForm.propTypes = {
+  onAddEmployee: PropTypes.func.isRequired,
 };
 
 export default NewHireForm;

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import EmployeeCard from "../EmployeeCard/EmployeeCard";
 import "./EmployeeList.css";
-// import employees from "../../data/employees.js"; // import json
 
 const EmployeeList = () => {
   // const [posts, setPosts] = useState([]); // Added on Wednesday 27.11

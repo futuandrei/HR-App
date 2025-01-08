@@ -33,14 +33,14 @@
       "department": "IT",
       "salary": 5000,
       "initialRole": "IT Specialist",
-      "startDate": "2025-12-01",
+      "startDate": "2025-01-01",
       "location": "Helsinki"
     },
     {
       "id": "5",
       "name": "Matt Damon",
       "department": "magic",
-      "salary": 12000,
+      "salary": 5000,
       "initialRole": "IT Specialist",
       "startDate": "2024-11-01",
       "location": "Helsinki"
@@ -48,36 +48,36 @@
     {
       "id": "6",
       "name": "Rowan Atkinson",
-      "department": "magic",
-      "salary": 12000,
-      "initialRole": "Sparkle master",
+      "department": "Management",
+      "salary": 5000,
+      "initialRole": "Product Manager",
       "startDate": "2024-12-01",
       "location": "Helsinki"
     },
     {
       "id": "7",
       "name": "Richard Gere",
-      "department": "magic",
-      "salary": 12000,
-      "initialRole": "Sparkle master",
+      "department": "HR",
+      "salary": 5000,
+      "initialRole": "HR specialist",
       "startDate": "2005-08-01",
       "location": "Helsinki"
     },
     {
       "id": "8",
       "name": "Nicholas Cage",
-      "department": "magic",
-      "salary": 12000,
-      "initialRole": "Sparkle master",
+      "department": "HR",
+      "salary": 5000,
+      "initialRole": "HR specialist",
       "startDate": "2011-08-01",
       "location": "Helsinki"
     },
     {
       "id": "9",
       "name": "Mikael Persbrandt",
-      "department": "HR",
-      "salary": 12000,
-      "initialRole": "HR specialist",
+      "department": "Marketing",
+      "salary": 5000,
+      "initialRole": "Marketing specialist",
       "startDate": "2011-08-01",
       "location": "Helsinki"
     },
@@ -85,7 +85,7 @@
       "id": "10",
       "name": "Peter Haber",
       "department": "HR",
-      "salary": 12000,
+      "salary": 5000,
       "initialRole": "HR specialist",
       "startDate": "2011-08-01",
       "location": "Helsinki"
@@ -103,31 +103,31 @@
       "id": "12",
       "name": "Joel Kinnaman",
       "department": "HR",
-      "salary": 12000,
+      "salary": 5000,
       "initialRole": "HR specialist",
       "startDate": "2011-08-01",
       "location": "Helsinki"
     },
     {
-      "id": "5ce9",
+      "id": "13",
       "name": "Samuel",
       "department": "Jakson",
-      "salary": "5000",
+      "salary": 5000,
       "initialRole": "Developer",
       "location": "Oslo",
       "startDate": "2025-01-07"
     },
     {
-      "id": "7fb2",
+      "id": "14",
       "name": "Richard Harris",
       "department": "HR",
-      "salary": "5500",
+      "salary": 55000,
       "initialRole": "Analyst",
       "location": "Stockholm",
       "startDate": "2025-01-23"
     },
     {
-      "id": "3baa",
+      "id": "15",
       "name": "asda",
       "department": "asda",
       "salary": "333",
@@ -136,22 +136,40 @@
       "startDate": "2025-01-03"
     },
     {
-      "id": "d0dc",
+      "id": "16",
       "name": "Andrei Savolainen",
       "department": "HR",
-      "salary": "4000",
+      "salary": 5000,
       "initialRole": "Assistant",
       "location": "Bergen",
       "startDate": "2025-01-17"
     },
     {
-      "id": "0f5e",
+      "id": "17",
       "name": "Jack Black",
       "department": "Maintenance",
-      "salary": "3000",
+      "salary": 3000,
       "initialRole": "Janitor",
       "location": "Mobile",
       "startDate": "2025-01-07"
+    },
+    {
+      "id": "18",
+      "name": "Emma Stone",
+      "department": "HR",
+      "salary": 5000,
+      "initialRole": "HR Specialist",
+      "location": "Berlin",
+      "startDate": "2025-01-22"
+    },
+    {
+      "id": "c212",
+      "name": "Jonas",
+      "department": "HR",
+      "salary": "4000",
+      "initialRole": "HR",
+      "location": "Kopenhagen",
+      "startDate": "2025-01-17"
     }
   ]
 }

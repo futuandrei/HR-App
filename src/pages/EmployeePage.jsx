@@ -1,8 +1,9 @@
-import { useLocation, useParams } from "react-router-dom";
+// import { useLocation, useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import styles from "./EmployeePage.module.css";
 
 const EmployeePage = () => {
-  const { id } = useParams(); // Get the ID from the URL
+  //   const { id } = useParams(); // Get the ID from the URL
   const location = useLocation(); // Get the passed state (props)
   const employee = location.state; // Get employee data from the passed state
 

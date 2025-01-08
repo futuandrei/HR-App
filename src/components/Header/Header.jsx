@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 import Button from "../Button/Button";
 import "./Header.css";
 
-const Header = (props) => {
+const Header = () => {
   //   const buttonText = props.loginStatus ? "Log out" : "Log in";
 
   const navigate = useNavigate();
