@@ -3,8 +3,7 @@ import EmployeeCard from "../EmployeeCard/EmployeeCard";
 import "./EmployeeList.css";
 
 const EmployeeList = () => {
-  // const [posts, setPosts] = useState([]); // Added on Wednesday 27.11
-  const [isLoading, setIsLoading] = useState(true); // Added on Wednesday 27.11
+  const [isLoading, setIsLoading] = useState(true);
   const [employees, setEmployees] = useState([]);
 
   useEffect(() => {

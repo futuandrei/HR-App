@@ -7,7 +7,6 @@
 .card {
   border: 1px solid #333;
   border-radius: 8px;
-  /* padding: 16px; */
   background-color: #fff;
   width: calc(25% - 16px); /* 4 cards per row */
   text-align: left;
@@ -15,22 +14,22 @@
 
 .card-it {
   border-color: #007bff;
-  background-color: #e6f2ff; /* Light blue for IT department */
+  background-color: #e6f2ff;
 }
 
 .card-hr {
   border-color: #ff5722;
-  background-color: #ffe6e1; /* Light orange for HR department */
+  background-color: #ffe6e1;
 }
 
 .card-management {
   border-color: #4caf50;
-  background-color: #e7f5e7; /* Light green for Management department */
+  background-color: #e7f5e7;
 }
 
 .card-marketing {
   border-color: #9c27b0;
-  background-color: #f5e7f8; /* Light purple for Marketing department */
+  background-color: #f5e7f8;
 }
 
 .thumbnail {

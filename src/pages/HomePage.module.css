@@ -36,7 +36,6 @@
 .two-columns {
   display: flex;
   gap: 16px;
-  /* flex-direction: row; */
   width: 100%;
 }
 

@@ -4,18 +4,9 @@ import NewHireForm from "../components/Forms/NewHireForm";
 
 const AddEmployeePage = () => {
   const navigate = useNavigate(); // For navigating back
-  //   const [formData, setFormData] = useState({
-  //     name: "",
-  //     department: "",
-  //     salary: "",
-  //     initialRole: "",
-  //     location: "",
-  //     startDate: "",
-  //   });
 
   const handleSubmit = async (newEmployee) => {
-    // Send the new employee data to your API (or update db.json via JSON Server)
-    await fetch("http://localhost:3001/persons", {
+    await fetch("http://localhost:3001/employees", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newEmployee),

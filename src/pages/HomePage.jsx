@@ -1,11 +1,8 @@
-// import Header from "../components/Header/Header";
-// import Footer from "../components/Footer/Footer";
 import styles from "./HomePage.module.css";
 
 function HomePage() {
   return (
     <>
-      {/* <Header /> */}
       <main>
         <div className={`${styles["home-page"]}`}>
           <header className="welcome-banner">
@@ -52,7 +49,6 @@ function HomePage() {
           </div>
         </div>
       </main>
-      {/* <Footer /> */}
     </>
   );
 }

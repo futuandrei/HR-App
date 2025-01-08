@@ -1,6 +1,3 @@
-// import React from "react";
-// import Header from "../components/Header/Header";
-// import Footer from "../components/Footer/Footer";
 import EmployeeList from "../components/EmployeeList/EmployeeList";
 import Button from "../components/Button/Button";
 import { useNavigate } from "react-router-dom";

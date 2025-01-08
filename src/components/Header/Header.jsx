@@ -5,10 +5,7 @@ import Button from "../Button/Button";
 import "./Header.css";
 
 const Header = () => {
-  //   const buttonText = props.loginStatus ? "Log out" : "Log in";
-
   const navigate = useNavigate();
-
   const handleLogout = () => {
     navigate("/");
   };

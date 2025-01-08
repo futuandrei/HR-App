@@ -7,11 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 function EmployeeCard(props) {
   const [role, setRole] = useState(props.initialRole);
-
-  // console.log("card props", props);
   const [isPromoted, setIsPromoted] = useState(false);
-  // const [buttonText, setButtonText] = useState("Promote!");
-  // const [toggleFormEdit, setToggleFormEdit] = useState(false);
   const [isEditing, setIsEditing] = useState(false); // To toggle the form
   const navigate = useNavigate();
 
@@ -34,13 +30,6 @@ function EmployeeCard(props) {
     navigate(`/app/EmployeePage/${props.id}`, { state: employeeData }); // Navigate to EmployeePage with the ID in the URL
   };
 
-  // const handleSave = (updatedData) => {
-  //   // console.log("Saving data:", updatedData); // Debug log
-  //   setRole(updatedData.role); // Explicitly update the role state
-  //   props.onSave(props.id, updatedData); // Call the parent's update function
-  //   setIsEditing(false); // Close the form after saving
-  // };
-
   const handleSave = (updatedData) => {
     setRole(updatedData.role); // Update the role in EmployeeCard
     props.onSave(props.id, updatedData); // Call the parent's update function
@@ -53,14 +42,9 @@ function EmployeeCard(props) {
 
   const clickHandler = () => {
     if (isPromoted) {
-      // Demote employee
       setRole(props.initialRole);
-      // setButtonText(props.buttonText);
-      // setButtonText("Demote");
       setIsPromoted(false);
     } else {
-      // Promote employee
-      // setRole (`${props.initialRole} / Team Lead`);
       setRole(`Team Lead`);
       // setButtonText("Promote");
       setIsPromoted(true);
@@ -69,7 +53,6 @@ function EmployeeCard(props) {
 
   // Started at
   const formatStartDate = () => {
-    // const today = new Date();
     const startYear = new Date(props.startDate);
     const startMonth = new Date(props.startDate);
     let year = startYear.getFullYear();
@@ -88,7 +71,6 @@ function EmployeeCard(props) {
       "Dec",
     ];
     let month = monthNames[startMonth.getMonth()]; // Convert month index to month name
-    // console.log(year);
     return month + "/" + year;
   };
 
@@ -104,7 +86,7 @@ function EmployeeCard(props) {
       years--; // Subtract 1 year
       months += 12; // Add 12 months
     }
-    // Return a human-readable string
+
     if (years === 0) {
       return `${months} months`; // Less than a year, only show months
     } else if (months === 0) {
@@ -132,7 +114,6 @@ function EmployeeCard(props) {
     const totalMonthsDifference =
       (today.getFullYear() - startDate.getFullYear()) * 12 +
       (today.getMonth() - startDate.getMonth());
-    // console.log(totalMonthsDifference);
 
     // Check if the probation period is exactly this month or coming up within 1 month
     if (totalMonthsDifference === probationPeriodMonths) {
@@ -153,8 +134,6 @@ function EmployeeCard(props) {
   const departmentClass = `card card-${
     props.department?.trim().toLowerCase().replace(/\s+/g, "-") || "default"
   }`;
-
-  // console.log(`Department: "${props.department}"`); // Log the exact department value
 
   return (
     <>
@@ -207,7 +186,6 @@ function EmployeeCard(props) {
         ) : (
           <div className="editFormContainer">
             <Form
-              // role={props.initialRole}
               role={role}
               department={props.department}
               salary={props.salary}
