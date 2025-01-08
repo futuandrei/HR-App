@@ -24,6 +24,11 @@ Live page [to be placed later if applicable]
 
 [to be placed later if needed]
 
+## To run locally
+
+Type:
+`npm run dev`
+
 ## Json server
 
 Docs:
