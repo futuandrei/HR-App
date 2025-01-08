@@ -19,3 +19,5 @@ First:
 `rm -rf node_modules package-lock.json`
 Then:
 `npm install`
+
+All this did not work.

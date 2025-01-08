@@ -7,7 +7,7 @@ const EmployeeList = () => {
   const [employees, setEmployees] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/employees")
+    fetch("https://mock-api-hgn0.onrender.com/api/employees")
       .then((response) => response.json())
       .then((data) => {
         setEmployees(data);
@@ -27,7 +27,7 @@ const EmployeeList = () => {
   // Function to delete employee
   const deleteEmployee = async (id) => {
     // Send DELETE request to the server
-    await fetch(`http://localhost:3001/employees/${id}`, {
+    await fetch(`https://mock-api-hgn0.onrender.com/api/employees/${id}`, {
       method: "DELETE",
     });
 

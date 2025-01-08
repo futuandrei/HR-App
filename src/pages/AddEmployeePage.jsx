@@ -6,7 +6,7 @@ const AddEmployeePage = () => {
   const navigate = useNavigate(); // For navigating back
 
   const handleSubmit = async (newEmployee) => {
-    await fetch("http://localhost:3001/employees", {
+    await fetch("https://mock-api-hgn0.onrender.com/api/employees", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newEmployee),
