@@ -1,5 +1,7 @@
 # HR App
 
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-highlight.svg)](https://sonarcloud.io/summary/new_code?id=futuandrei_HR-App-Andrei)
+
 This is a HR Application.
 The application is made for the purpose of practice React. Application consist of following functionalities:
 
