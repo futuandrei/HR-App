@@ -2,6 +2,8 @@
 
 [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-highlight.svg)](https://sonarcloud.io/summary/new_code?id=futuandrei_HR-App-Andrei)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=futuandrei_HR-App-Andrei&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=futuandrei_HR-App-Andrei)
+
 This is a HR Application.
 The application is made for the purpose of practice React. Application consist of following functionalities:
 
