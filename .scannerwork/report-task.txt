@@ -2,5 +2,5 @@ projectKey=my_sonarproject_1
 serverUrl=http://localhost:9001
 serverVersion=25.2.0.102705
 dashboardUrl=http://localhost:9001/dashboard?id=my_sonarproject_1
-ceTaskId=18a3136b-955b-4c5e-824a-f9869b1ebfac
-ceTaskUrl=http://localhost:9001/api/ce/task?id=18a3136b-955b-4c5e-824a-f9869b1ebfac
+ceTaskId=b083a62b-1b1d-45ce-91bb-338545e24eb6
+ceTaskUrl=http://localhost:9001/api/ce/task?id=b083a62b-1b1d-45ce-91bb-338545e24eb6
